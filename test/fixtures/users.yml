@@ -1,9 +1,5 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-two:
-  email: www@suman.com
-  password_digest: <%= BCrypt::Password.create('g00d_pa$$') %>
-
 one:
-  email: suman@suman.com
-  password_digest: hashedPassword
+  email: one@one.org
+  password_digest: <%= BCrypt::Password.create('g00d_pa$$') %>

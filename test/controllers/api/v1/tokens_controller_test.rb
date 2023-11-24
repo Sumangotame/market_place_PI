@@ -2,7 +2,7 @@ require 'test_helper'
 
 class Api::V1::TokensControllerTest < ActionDispatch::IntegrationTest
   setup do
-    @user = users(:two)
+    @user = users(:one)
     end
 
   test "should get jwt token" do
